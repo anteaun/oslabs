@@ -65,5 +65,6 @@
 |:-:|:-:|
 |![random_1](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/random_1.png)|![random_2](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/random_2.png)|
 ### История изменений
-Приложение поодерживает просмотр истории изменений модели.
+Приложение поодерживает просмотр истории изменений модели.\
+\
 ![history](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/history.png)
