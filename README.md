@@ -34,4 +34,36 @@
 |Начальная матрица|Первая итерация|Вторая итерация|
 |:-:|:-:|:-:|
 |![slabo_1](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/slabo_1.png)|![slabo_2](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/slabo_2.png)|![slabo_3](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/slabo_3.png)|
-
+## Дополнительные функции
+### Загрузка модели из файла
+Модель можно загрузить из текстового файла следующего формата:
+```
+<n - количество стратегий первого игрока> 
+<m - количество стратегий второго игрока>
+<имя первого игрока>
+<имя второго игрока>
+<название стратегии 1 для первого игрока>
+...
+<название стратегии n для первого игрока>
+<название стратегии 1 для второго игрока>
+...
+<название стратегии m для второго игрока>
+<a11> ... <a1m>
+...
+<an1> ... <anm>
+```
+|Содержание текстового файла|Результат загрузки|
+|:-:|:-:|
+|![load](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/load.png)|![load_m](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/load_m.png)|
+### Выгрузка модели в файл
+|Матрица игры|Содержание текстового файла|
+|:-:|:-:|
+|![save_m](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/save_m.png)|![save](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/save.png)|
+### Заполнение матрицы случайными весами
+Веса для каждой ситуации генерируются случайно из диапазона [-10; 10].
+|Матрица игры до заполнения|Матрица игры после заполнения|
+|:-:|:-:|
+|![random_1](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/random_1.png)|![random_2](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/random_2.png)|
+### История изменений
+Приложение поодерживает просмотр истории изменений модели.
+![history](https://github.com/vsmpei/mpei-sm-lab1/tree/master/Images/history.png)
